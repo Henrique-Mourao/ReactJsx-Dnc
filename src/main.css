@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -42,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  line-height: 180%;
+  line-height: 150%;
 }
 
 .txt-center {

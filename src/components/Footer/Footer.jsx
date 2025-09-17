@@ -14,11 +14,11 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <nav className="footer-main d-flex  jc-space-between">
+        <nav className="footer-main d-flex  jc-space-between mobile-fd-column">
           <div className="footer-logo-col">
             <img src={Logo} alt="DNC Logo" />
             <p className="grey-1-color">
-              A escola que prepara você para as profissões em alta no mercado de trabalho.
+              A escola que prepara você para as profissões em trabalho remoto.
             </p>
             <div className="social-links d-flex">
               <a href="https://www.instagram.com/dncarqmourao/" target="_blank" rel="noreferrer">
@@ -35,8 +35,8 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="d-flex">
-          <div className="footer-col">
+          <div className="d-flex mobile-fd-column mobile-al-center">
+          <div className="footer-col ">
             <h3>Pages</h3>
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
