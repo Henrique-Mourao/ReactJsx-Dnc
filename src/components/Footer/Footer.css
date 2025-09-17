@@ -1,4 +1,4 @@
-.footer-logo-col{
+.footer-logo-col {
     max-width: 340px;
     width: 100%;
 }
@@ -6,36 +6,42 @@
 .footer-col {
     margin: 0 0 0 140px;
     max-width: 260px;
-    padding: 100%;
+    width: 100%;
+}
+
+
+.footer-col ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-col li {
     margin: 0 0 25px 0;
 }
 
-.footer h3, .footer-logo{
+footer h3, .footer-logo {
     font-size: 25px;
     margin: 0 0 25px 0;
 }
 
-.footer a, .footer p {
+footer a, footer p {
     font-size: 22px;
     margin: 0 0 25px 0;
     line-height: 150%;
 }
 
-.footer a {
+footer a {
     text-decoration: none;
 }
 
-.footer a:hover {
+footer a:hover {
     color: #0C70F2;
 }
 
-footer .social-icons {
+footer .social-links a {
     margin: 25px 40px 0 0;
 }
-
 
 .footer-copy {
     margin: 155px 0 50px 0;
@@ -51,8 +57,7 @@ footer .social-icons {
         max-width: 100%;
         width: 100%;
     }
-
-    .footer-logo-col{
+    .footer-logo-col {
         max-width: 100%;
         width: 100%;
     }

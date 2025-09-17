@@ -12,9 +12,9 @@ import Logo from "../../assets/dnc-logo.svg";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer>
       <div className="container">
-        <div className="footer-main d-flex al-center jc-space-between">
+        <nav className="footer-main d-flex  jc-space-between">
           <div className="footer-logo-col">
             <img src={Logo} alt="DNC Logo" />
             <p className="grey-1-color">
@@ -35,7 +35,8 @@ function Footer() {
               </a>
             </div>
           </div>
-          <nav className="footer-col">
+          <div className="d-flex">
+          <div className="footer-col">
             <h3>Pages</h3>
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
@@ -43,13 +44,21 @@ function Footer() {
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
-          </nav>
+          </div>
+          <div className="footer-col">
+          <h3>Contact</h3>
+          <p className="grey-1-color">R. Justino Cobra, 61 - Villa Ema | São José dos Campos - SP</p>
+          <p className="grey-1-color">suporte@escoladnc.com.br</p>
+          <p className="grey-1-color">(19) 99187 - 4342</p>
+          <p className="grey-1-color"></p>
         </div>
-        <div className="footer-bottom d-flex jc-space-between al-center">
+        </div>
+        </nav>
+        <div className="footer-bottom d-flex jc-space-between footer-copy al-center">
           <p className="grey-1-color">© 2024 DNC Arquitetura. All rights reserved.</p>
           <div className="langs-area d-flex">
-            <img src={BrasilLog} alt="Português" />
-            <img src={EUALog} alt="English" />
+            <img src={BrasilLog} height="29px" alt="Português" />
+            <img src={EUALog} height="29px" alt="English" />
           </div>
         </div>
       </div>
